@@ -1,0 +1,35 @@
+from Java Basics Tutorial (https://www.youtube.com/watch?v=GoXwIVyNvX0&list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG)
+
+Sets :
+    - Set is a collection of unordered elements that are unique
+    - A set cannot contain the same element twice
+    
+    - Set<Integer> (variable) = new HashSet<Integer>();
+    - (variable).add(element)
+    - (variable).remove(element)
+
+    - Set<Integer> (variable) = new TreeSet<Integer>();
+    - A Treeset orders the lists
+
+Lists :
+    - List is almost like an array but slower
+    - It works like a sets, but you can find the index
+    - The syntax is similar to sets
+
+Maps and HasMaps :
+    - A map is similar to an array where you can index them, but instead of a number you can index them with anything (String, number, char, etc)
+
+    - Map (variable) = new HashMap();
+    - m.put((key),(value))
+    - m.get(key)
+
+    - A TreeMap is similar to a TreeSet
+    - Map (variable) = new TreehMap();
+    - The keys have to be the same datatype
+
+    - A LinkedHashMap is similar to sets where it's order is gonna be like the order which you added them in
+    - Map (variable) = new LinkedHashMap();
+
+    - (variable).containsValue((variable)) // checks whether or not the map contains a certain value
+    - (variable).containsKey((variable)) // checks whether or not the map contains a certain map
+
