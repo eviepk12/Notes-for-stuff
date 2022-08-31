@@ -1,0 +1,7 @@
+Dictionaries : 
+    - Dictionaries are used to store data values in key value pairs which means that a certain data can be paired with a certain key that can be called
+    - (variable) = {(key) : (value)}
+
+Lists : 
+    - List is used to store multiple items or values in a single variable
+    - (variable) = [1, 2, 3]
