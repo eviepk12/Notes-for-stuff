@@ -1,0 +1,20 @@
+Chapter 1: 
+    - Data science is relatively new first termed by William S. Cleveland in 2001
+    - Competencies a data scientist could learn and excel :
+        - Data Capture = understanding how to structure, relate, and model raw data into tangeable objects
+        - Analysis = analysing the data after capture with statistical tools to help draw conclusions
+        - Presentation = present the data in a way so that it is readable and visualize them the masses and tell a specific story so that the impact of the data isn't lost
+    - The act of moving data to be analysed is a specialty called "Extract, Transformation, and Loading" (ETL).
+    - The ETL specialist uses programming languages such as Python to extract data from different sources because corporations tend to not keep data in one easily accessed location
+    - In a large scale, real world operation the tools you might use are Informatica, MS SSIS, or Teradata
+    - Always be objective and keep an open mind when analysis data, having preconceived ideas of what the data contains will potentially lead to seeing patterns in the dark
+    - For an applicationn to learn, it has to be able to manipulate large databses and discover new patterns within them
+    - Applications must also be able to create new data base on the old data and making an educated guess or prediction
+    - The types of programming methods supported by Python : 
+        - Functional = Treats every sentence as a mathematical equation and avoids forms of state or mutable data, usually used for recursion or lambda calculus
+        - Imperative = Computations directly change program's state, usually used for manipulating data structures and produces elegant, but simple code
+        - Object Oriented =  Data fields treated as objects and manipulated through prescribed methods, though python doesn't fully support this because it doesn't have data hiding, it still supports encapsulation and polymosrphism
+        - Procedural = Treats tasks step by step where common tasks are places in functions and called as needed
+
+Chapter 3:
+    -
