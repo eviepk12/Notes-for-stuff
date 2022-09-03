@@ -1,20 +1,80 @@
-Chapter 1: 
+Chapter 1: (Introduction) 
     - Data science is relatively new first termed by William S. Cleveland in 2001
+
     - Competencies a data scientist could learn and excel :
         - Data Capture = understanding how to structure, relate, and model raw data into tangeable objects
         - Analysis = analysing the data after capture with statistical tools to help draw conclusions
         - Presentation = present the data in a way so that it is readable and visualize them the masses and tell a specific story so that the impact of the data isn't lost
+    
     - The act of moving data to be analysed is a specialty called "Extract, Transformation, and Loading" (ETL).
     - The ETL specialist uses programming languages such as Python to extract data from different sources because corporations tend to not keep data in one easily accessed location
     - In a large scale, real world operation the tools you might use are Informatica, MS SSIS, or Teradata
     - Always be objective and keep an open mind when analysis data, having preconceived ideas of what the data contains will potentially lead to seeing patterns in the dark
     - For an applicationn to learn, it has to be able to manipulate large databses and discover new patterns within them
     - Applications must also be able to create new data base on the old data and making an educated guess or prediction
+    
     - The types of programming methods supported by Python : 
         - Functional = Treats every sentence as a mathematical equation and avoids forms of state or mutable data, usually used for recursion or lambda calculus
         - Imperative = Computations directly change program's state, usually used for manipulating data structures and produces elegant, but simple code
         - Object Oriented =  Data fields treated as objects and manipulated through prescribed methods, though python doesn't fully support this because it doesn't have data hiding, it still supports encapsulation and polymosrphism
         - Procedural = Treats tasks step by step where common tasks are places in functions and called as needed
 
+Chapter 2: (Python's Capabilities)
+    - Python was made by Guido Van Rossum in 1989 as a replacement for the ABC language
+    - The core concept of python was to create it as fast as possible, yet flexible, runs on any platforms, and provide significant potential for extensions
+    
+    - Reasons why python is preferred in data science : 
+        - Library Support = python offers a large number of libraries that helps to ease the process of data science
+        - Parallel Processing = python can process tasks using separate threads so that worlkload can be broken down to provide a faster process
+        - Data Acess = python can access SQL databases which is useful for storing and organizing huge amounts of processed data
+        - Data Display = python offers a wide array of libraries that can be used to diplay data like Quixote or Pandas
+    
+    - Phases of prototyping when analysing data : 
+        - Building a Data Pipeline = to work with a data you must create a way for the program and data to interact
+        - Performing the required Shaping = The shape of the data like it's data type is important in analysis because it can effects the way it compares with other data, and how it interacts with a particular algorithm
+        - Analysing the Data = When analysing data it is best to use several algorithm to see which one does the best job and for the particular condition
+        - Presenting the Result = After analysing the data you have to present it in an easily and visually, usually using MATLAB which can present a data graphically in different ways for your particular needs
+    
+    - Factors in the Speed of Execution :
+        - Dataset Size = data science relies on big datasets to determine the right conclusions, and underestimating the effect of the size of a dataset is a mistake in real life application because it can effect on the speed of it's execution
+        - Loading Techniques = the method you use to load data for analysis is critical and should always opt for the fastest means available
+        - Coding Style = the particular coding style can effect the effectiveness of a given task, you just have to adapt to your particular condition
+        - Machine Capability = you need a capable system to run data science because they are particularly heavy in both processor and disk
+        - Analysis Algorithm = the algorithm you use determines the kind of results you obtain and speed
+    
+    - Scikit-learn datasets appear within bunches which is a kind of data structure
+    - In every dataset there is keys that can be used to identify certain values
+    - keys() function is used to diplay a list of keys that can be used to access data within the dateset
+    - If you want to access the data you want you can just type the key after the variable you have set <variable>.<key>
+   
+    - Acessing Scientific Tools Using SciPy : 
+        - NumPy = a library that provides themeans of performing different mathematical tasks like n-dimensional arrays, linear algebra, random-number generator, etc etc
+        - Pandas = Pandas provides a fast and efficient way to make a data structure on the dataset that has been analysed that's called a "dataframe"
+        - Scikit-Learn = one of a number of SciKit libraries that builds on the capabilities of numpy and scipy to allow domain specific tasks
+    - Keras is an API that is used to train deep learning models
+    - To use Keras you need an implementation of Keras to use it which is where Tensorflow comes into play
+    
+    - Deep Learning with Keras and Tensorflow :
+        - Concistent Interface = Keras interface is optimized for common use cases
+        - Lego Approach = Using black-box approach to make it easy to configure building blocks together
+        - Extendable = Easily adds custom building blocks to express new ideas for research
+        - Parallel Processing = Keras can run on both CPUs and GPUs
+        - Direct Python Support = you don't need to do anything special to make the TensorFlow implementation of Keras work with python
+    
+    - The matploblib is used to plot data and gives a MATLAB like interface for creating data presentations of the analysis
+    - NetworkX provides a way to study the relationship between complex data in a networked system and outputs a result in a way humans can understand
+    - Beautiful soup is used to parse HTML or XML data in a matter python understands and allows you to work with tree-based data
+
+    - Technologies Used in Data Science : 
+        - Numpy
+        - Pandas
+        - SciKit-Learn
+        - Keras
+        - TensorFlow
+        - Matploblib
+        - Pandas
+        - NetworkX
+        - Beautiful Soup
+
 Chapter 3:
-    -
+    
