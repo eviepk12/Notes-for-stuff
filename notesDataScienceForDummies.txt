@@ -1,15 +1,15 @@
 Chapter 1: (Introduction) 
-    - Data science is relatively new first termed by William S. Cleveland in 2001
-
+    - Data science is a relatively new field first termed by William S. Cleveland in 2001
+    
     - Competencies a data scientist could learn and excel :
-        - Data Capture = understanding how to structure, relate, and model raw data into tangeable objects
+        - Data Capture = understanding how to structure, relate, and model raw data into tangible concepts
         - Analysis = analysing the data after capture with statistical tools to help draw conclusions
-        - Presentation = present the data in a way so that it is readable and visualize them the masses and tell a specific story so that the impact of the data isn't lost
+        - Presentation = present the data in a way so that it is readable and visualize them to the masses and tell a specific story so that the impact of the data isn't lost
     
     - The act of moving data to be analysed is a specialty called "Extract, Transformation, and Loading" (ETL).
     - The ETL specialist uses programming languages such as Python to extract data from different sources because corporations tend to not keep data in one easily accessed location
     - In a large scale, real world operation the tools you might use are Informatica, MS SSIS, or Teradata
-    - Always be objective and keep an open mind when analysis data, having preconceived ideas of what the data contains will potentially lead to seeing patterns in the dark
+    - Always be objective and kee p an open mind when analysis data, having preconceived ideas of what the data contains will potentially lead to seeing patterns in the dark
     - For an applicationn to learn, it has to be able to manipulate large databses and discover new patterns within them
     - Applications must also be able to create new data base on the old data and making an educated guess or prediction
     
@@ -76,5 +76,64 @@ Chapter 2: (Python's Capabilities)
         - NetworkX
         - Beautiful Soup
 
-Chapter 3:
+Chapter 3: (Installing python and anaconda)
+    - Chapter 3 is just instructions to download Python, anaconda, etc etc
+
+Chapter 4: (Google collab)
+    - DO WHEN YOU'RE AT HOME 
+
+Chapter 5: (Understanding the tools)
+    - Five commands for enchanced help :
+        - ? = using jupyter to perform useful work
+        - object? = lists out facts about the packages, objects, and methods in python used to interact with data
+        - object?? = obtaining short information about the given packages, objects, and methods
+        - %quickref = obtaining information about magic function in jupyter
+        - help() = learn about python
+
+        - help() and ? aren't the same, the former is for python while the latter is for IPython features
+
+    - help() parameteres and what they do:
+        - modules = compiles a list of the currently loaded modules
+        - kewords = presents a list of python keywords
+        - symbols = shows a list of symbols that have a special meaning in python like * for multiplications and << for left shift
+        - topics = displays a list of general python topics, the topics appears in uppercase!
     
+    - Working with magic function:
+        - most magic functions starts with a single (%) or double (%%)
+        - those with a single % works at the command-line level while those with double %% works at the cell level
+
+    - Using IPython object help:
+        - %pdoc = displays the dosctring for the object
+        - %pdef = shows how to call the object
+        - %source = displays the source code for the object
+        - %file  = outputs the name of the file that contains the source code
+        - %pinfo = displays detailed information about the object
+        - %pinfo2 = displays extra detailed information about the object
+    
+    - Modes of typing in Jupyter: 
+        - code = write standard python code
+        - markdown = write standard HTML used to separate and add content within the file
+        - raw NBconvert = include information that shouldn't be modified by the notebook converter (NBConvert) used to include special content like Lamport TeX which isn't tied for a particular editor but a means of encoding scientific documents
+        - heading = used to be used for adding headings, it's no longer supported and now use #, ##, ###, descending in importance with the markdown model
+    
+    - Multimedia and Graphic integration in jupyter:
+        - a lot of functionality required to perform multimedia tasks appears within the Ipython.display or Jupyter.display library
+        - import the Image method from the IPython.display library
+        
+        - Example code:
+            from IPythono.display import Image
+            embed = image('URL' + 'url of the image')
+            embed
+
+        - when working with embedded images on a regular basis, you might want to set the form which they are embedded in
+            from IPython.display import set_matploblib_formats
+            set_matploblib_formats('pdf', 'svg')
+
+        - if you expect an image to change overtime you might want to create a link to it instead of embedding it
+            softLinked = Image(url='URL') instead of Embed
+
+Chapter 6: (Finally working with real data!!)
+    - the Scikit-learn library includes a number of toy datasets meant to be studied on a small scale and experiment with
+    - Storing data in local computer memory represents the fastest and most reliable means to access it
+    - Data scientists call the columns in a database features or variable, rows cases, and each row represents a collection of variables you can analyze
+    - 
