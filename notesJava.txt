@@ -32,4 +32,3 @@ Maps and HasMaps :
 
     - (variable).containsValue((variable)) // checks whether or not the map contains a certain value
     - (variable).containsKey((variable)) // checks whether or not the map contains a certain map
-

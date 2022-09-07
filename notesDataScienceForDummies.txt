@@ -136,4 +136,46 @@ Chapter 6: (Finally working with real data!!)
     - the Scikit-learn library includes a number of toy datasets meant to be studied on a small scale and experiment with
     - Storing data in local computer memory represents the fastest and most reliable means to access it
     - Data scientists call the columns in a database features or variable, rows cases, and each row represents a collection of variables you can analyze
-    - 
+    
+    - How to open a file in python:
+        with open("Colors.txt", 'r') as open_file:
+            print("colors.txt content: \n" + open_file.read())
+    
+        - open() = method to obtain a file object, it accepts the filename and access mode in this context the file Colors.txt and access mode 'r' which is read
+        - read() = method to read all the data in the file, to specify the number of characters to read just type in an integer in the parameter
+
+    - you might encounter datasets that is just too large to store locally, streaming the data solves both problems by having snippets of a particular dataset locally while streaming the rest
+
+    - How to stream a dataset:
+        with open("Colors.txt", 'r') as open_file:
+            for observation in open_file:
+                print("Reading data: " + observation)
+    
+    - How to analyze an image data:
+        import matplotlib.image as img
+        import matplotlib.pyplot as plt
+        %matplotlib inline
+
+        image = img.imread(nameOfTheFile)
+        print(image.shape)
+        print(image.size)
+        plt.imshow(image)
+        plt.show()
+
+        - matplotlib.image = library that reads the image to memory
+        - matploblib.pyplot = library that displays the information on screen
+        - imshow() = used to load the image for plotting
+        - plt.show() = displays the image onscreen
+    
+    - sometimes you're in a situation where you don't need all the records but just need a few samples in a specific condition
+    - sampling can save time and resources by simply sampling a particular portion of the data instead of reading it whole
+
+    - Sampling in different ways:
+        - Samplling records a set number of records apart example:
+            n = 2
+            with open("Colors.txt", 'r') as open_file:
+                for j, observation in enumerate(open_file):
+                    if j % n==0:
+                        print("Reading Line: " + str(j) + "Content :" + observation)
+
+        

@@ -1,0 +1,7 @@
+MVC (Model, Views, Controller):
+    - Model = package class for database code
+    - Views = package class for front end development
+    - Controller = package class for logic code
+
+Class :
+    - 
