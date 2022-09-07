@@ -1,7 +1,10 @@
 MVC (Model, Views, Controller):
-    - Model = package class for database code
-    - Views = package class for front end development
-    - Controller = package class for logic code
+    - Model = package for database code
+    - Views = package for front end development
+    - Controller = package for logic code
+
+    - MVC works is an architectural pattern made for web application development
+    - in many cases the view never interacts directly with the model, the controller does that function, though some frameworks does do this 
 
 Class :
     - 
