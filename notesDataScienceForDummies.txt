@@ -134,7 +134,7 @@ Chapter 5: (Understanding the tools)
 
 Chapter 6: (Finally working with real data!!)
     - the Scikit-learn library includes a number of toy datasets meant to be studied on a small scale and experiment with
-    - Storing data in local computer memory represents the fastest and most reliable means to access it
+    - Storing data in local computer memory is the fastest and most reliable means to access it
     - Data scientists call the columns in a database features or variable, rows cases, and each row represents a collection of variables you can analyze
     
     - How to open a file in python:
@@ -177,5 +177,23 @@ Chapter 6: (Finally working with real data!!)
                 for j, observation in enumerate(open_file):
                     if j % n==0:
                         print("Reading Line: " + str(j) + "Content :" + observation)
-
         
+            - the idea of sampling is the same as streaming, however in this particular application it uses enumerate() to retrieve row number
+            
+        - Sampling records in random:
+            from random import random
+            sample_size = 0.25
+            with open("Colors.txt", 'r') as open_file:
+                for j, observation in enumerate(open_file):
+                    if random() <= sample_size:
+                        print("Reading Line: " + str(j) + " Content " + observation)
+            
+            - random = imported class method that outputs a value between 0 and 1
+            - sample_size = varibale contains a number between 0 and 1 to determine the sample size, for example 0.25 selects 25% of the items in the file
+            - though they are randomized they will still be ordered because they are still red from top to down
+        
+        - though python provides numerous ways to read text files, however it's far easier to let the library pandas to do it for you and format it
+        - a set of parsers is code used to read individual bits of data and determine the purpose of each bits according tot he format of the entire file
+
+        - How to read a text file using parsers:
+            
