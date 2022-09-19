@@ -5,3 +5,17 @@ Dictionaries :
 Lists : 
     - List is used to store multiple items or values in a single variable
     - (variable) = [1, 2, 3]
+
+SQLite Database : 
+    - first step is to "import sqlite3"
+    - to create a connection type
+        conn = sqlite3.connect('students.db')
+
+        this creates a table and puts data into it
+    - before creating a table we need a cursor, a cursor is an object used to make a connection for executing SQL queries and create tables, insert data, etc etc
+    - to create a cursor we need to call the cursor method :
+        cursor = conn.cursor()
+
+    - after the cursor method is called, the .execute method is used to create a new table in our database
+    - inside quotes we can use the usual SQL syntax in most RDBMS
+
