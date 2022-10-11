@@ -1,0 +1,11 @@
+Title           : Comes in 2
+Genre           : Story focused, local co-op, platformer, puzzle
+General Theme   : simple, pastel colours
+
+General Ideas :
+    - game local co-op mirip snipperclip, dll.
+    - gameplay 2d platformer dengan puzzle
+    - 2 karakter terikat satu sama lain kyk tali
+    - tema warnanya pastel umum
+    - bisa ganti warna karakternya
+    - artstylenya kyk buku anak anak, simple aja
