@@ -1,0 +1,82 @@
+BDT : mariaDB command-command umum
+    - masuk ke mariaDB pertama harus masuk ke directory xampp
+        1). buka CMD
+        2). tulis "cd ../../"
+        3). tulis "cd xampp" -- "cd mysql" -- "cd bin" -- "mysql -u root"
+
+    - Command-command umum yang dipakai di mariaDB:
+        1). SHOW DATABASES;
+            - Untuk melihatkan database yang ada
+        2). SHOW TABLES;
+            - Untuk melihatkan tables yang ada
+        3). USE [nama_database];
+            - Untuk masuk ke database yang dituju
+        4). DESC [nama_table];
+            - Untuk melihatkan struktur table yand dituju
+        5). SELECT * FROM [nama_table];
+            - melihatkan konten dalam table yang dituju
+
+    - Command-command plural yang sering dipakai:
+        1). Cara membuat database
+            - CREATE DATABASE [nama_database];
+        2). Cara membuat table
+            - CREATE TABLE [nama_table] (
+                [nama_variable] [type_data] [value_length]
+            );
+
+            CONTOH:
+                CREATE TABLE siswa (
+                    id INT(10),             [notes : setiap column jika menambahkan lebih dari satu harus pakai , kecuali column terakhir]
+                    nama VARCHAR(100),
+                    PRIMARY KEY(id)
+                );
+
+        3). Cara mengupdate table untuk menambahkan column
+            - ALTER TABLE [nama_table] [commands...]
+
+            CONTOH:
+                ALTER TABLE siswa ADD COLUMN test VARCHAR(20);  [notes : update table siswa untuk menambah column bernama test dengan type data varchar]
+
+        4). Cara mengupdate table untuk menambahkan primary key
+            - ALTER TABLE [nama_table] ADD CONSTRAINT [nama_table] PRIMARY KEY(nama_variable)
+
+            CONTOH:
+                ALTER TABLE siswa ADD CONSTRAINT siswa PRIMARY KEY(id);
+
+PWPB : Javascript
+    - Cara membuat popup window 
+          alert("I am an alert box!");
+    
+    - If statements
+        if (statement) {
+            // kode
+        } else if {
+            // kode
+        } else {
+            // kode
+        }
+    
+    - array
+        const [nama_variable] = [...];      [notes : praktik biasa untuk menggunakan constant sebagai variable array walau pakai let bisa]
+    
+    - Methods umum array 
+        - .push(...)
+            - untuk memasukan value ke belakang array
+        - .length(...)
+            - untuk mengasih panjangnya sebuah array
+        - .pop(...)
+            - untuk menghapus value terakhir
+        - .concat(...)
+            - untuk menggabungkan dua atau lebih array
+        
+PBO : Java
+    - [type_data][] [variable] = {values...}
+        CONTOH:
+            String[] nama = {zainal, bla, bla};
+
+    - Untuk mengubah value dalam array
+        [variable][nomor_index] = [value];
+            CONTOH:
+                nama[0] = "jack";
+
+
