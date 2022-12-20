@@ -3,10 +3,9 @@ title           : Notes on Sylvain Maréchal's Literatures
 tags            : [Common Place Book/Philosophy]
 description     : Sekumpulan notes untuk beberapa karya Sylvain Marechal
 ---
+![Sylvain Maréchal portrait](SylvainMarechal.jpg)
 
 ## [Preliminary discourse, or Answer to the question: What is an atheist?](https://www.marxists.org/history/france/revolution/marechal/1799/preliminary-discourse.htm)
-
-[![Sylvain Maréchal portrait](/assets/SylvainMarechal.jpg)](https://en.wikipedia.org/wiki/Sylvain_Mar%C3%A9chal)
 
 ---
 
