@@ -17,7 +17,7 @@ tags     : [Android, Fundamentals]
 
 Sistem android mempunyai prinsip **The principle of least privilege**, yaitu setiap aplikasi **hanya** mempunyai akses kepada komponen yang dibutuhkan untuk berjalan dan tidak lagi.
 
-### Tetapi ada beberapa cara untuk membagi data dengan aplikasi lain dan untuk aplikasi mengakses servis sistem :
+### Tetapi ada beberapa cara untuk membagi data dengan aplikasi lain dan untuk aplikasi mengakses servis sistem
 
 1. dua aplikasi bisa mempunyai Linux user ID yang sama, dimana mereka akan bisa mengakses file satu sama lain. Untuk menghemat resource system, aplikasi dengan user ID yang sama juga bisa dijalankan pada Linux Process dan VM yang sama, dan bahkan dengan certificate yang sama.
 2. Sebuah aplikasi bisa meminta izin untuk mengakses data perangkat seperti lokasi, camera, koneksi bluetooth, dll. Tetapi user harus memberi izin explicit.
