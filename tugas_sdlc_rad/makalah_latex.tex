@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\graphicspath{{images/}}
+\setlength{\headheight}{15pt}
+
+\begin{document}
+
+    \input{titlepage.tex}
+
+    % \chapter*{Abstrak}
+    
+    \tableofcontents
+    
+    \newpage
+    
+    \section{Pendahuluan}
+    \input{chapters/introduction.tex}
+    
+    \newpage
+    
+    \begin{multicols}{2}
+        \section{Systems Development Life Cycle}
+        \input{chapters/chapter1.tex}
+    
+        \section{SDLC Type Baru}
+        \input{chapters/chapter2.tex}
+        
+        \section{Pendahuluan}
+        \input{chapters/chapter3.tex}
+    
+        \section{Pendahuluan}
+        \input{chapters/chapter4.tex}
+        
+        \section{Pendahuluan}
+        \input{chapters/chapter5.tex}
+        
+        \section{Pendahuluan}
+        \input{chapters/chapter6.tex}
+    \end{multicols}
+    
+\end{document}
