@@ -1,7 +1,16 @@
 \contentsline {section}{\numberline {1}Pendahuluan}{2}{}%
-\contentsline {section}{\numberline {2}Systems Development Life Cycle}{4}{}%
-\contentsline {section}{\numberline {3}SDLC Type Baru}{5}{}%
-\contentsline {section}{\numberline {4}Pendahuluan}{6}{}%
-\contentsline {section}{\numberline {5}Pendahuluan}{7}{}%
-\contentsline {section}{\numberline {6}Pendahuluan}{8}{}%
-\contentsline {section}{\numberline {7}Pendahuluan}{9}{}%
+\contentsline {section}{\numberline {2}SDLC}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Apa itu SDLC?}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Fungsi SDLC}{3}{}%
+\contentsline {section}{\numberline {3}Sejarah Singkat}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Kelahirannya}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Konsekuensi Era yang Berbeda}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Era Baru}{5}{}%
+\contentsline {section}{\numberline {4}Rapid Application Development}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Rencana Baru}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Apa Itu RAD?}{6}{}%
+\contentsline {subsection}{\numberline {4.3}Sruktur}{7}{}%
+\contentsline {subsection}{\numberline {4.4}RAD vs Tradisi}{7}{}%
+\contentsline {subsection}{\numberline {4.5}Kelebihan/Kekurangan RAD}{9}{}%
+\contentsline {subsection}{\numberline {4.6}Untuk Siapa sih?}{9}{}%
+\contentsline {section}{\numberline {5}Kesimupulan}{11}{}%

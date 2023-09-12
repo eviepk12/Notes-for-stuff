@@ -5,10 +5,13 @@
 \usepackage{lipsum}
 \usepackage{fancyhdr}
 \usepackage{multicol}
+\usepackage{multirow}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
 
 \pagestyle{fancy}
 \graphicspath{{images/}}
 \setlength{\headheight}{15pt}
+\addbibresource{references.bib}
 
 \begin{document}
 
@@ -19,30 +22,31 @@
     \tableofcontents
     
     \newpage
-    
+
     \section{Pendahuluan}
     \input{chapters/introduction.tex}
     
     \newpage
     
     \begin{multicols}{2}
-        \section{Systems Development Life Cycle}
+        \section{SDLC}
         \input{chapters/chapter1.tex}
     
-        \section{SDLC Type Baru}
+        \section{Sejarah Singkat}
         \input{chapters/chapter2.tex}
         
-        \section{Pendahuluan}
+        \section{Rapid Application Development}
         \input{chapters/chapter3.tex}
     
-        \section{Pendahuluan}
-        \input{chapters/chapter4.tex}
-        
-        \section{Pendahuluan}
-        \input{chapters/chapter5.tex}
-        
-        \section{Pendahuluan}
-        \input{chapters/chapter6.tex}
     \end{multicols}
-    
+
+    \newpage
+
+    \section{Kesimupulan}
+    \input{chapters/conclusion.tex}
+
+    \newpage
+
+    \printbibliography
+ 
 \end{document}

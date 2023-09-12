@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.10)  10 SEP 2023 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.10)  12 SEP 2023 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -153,23 +153,285 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
 \mc@col@check@num=\count275
-) (./makalah_latex.aux)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count276
+\multirow@dima=\skip62
+\bigstrutjot=\dimen160
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count278
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count279
+\c@listtotal=\count280
+\c@listcount=\count281
+\c@liststart=\count282
+\c@liststop=\count283
+\c@citecount=\count284
+\c@citetotal=\count285
+\c@multicitecount=\count286
+\c@multicitetotal=\count287
+\c@instcount=\count288
+\c@maxnames=\count289
+\c@minnames=\count290
+\c@maxitems=\count291
+\c@minitems=\count292
+\c@citecounter=\count293
+\c@maxcitecounter=\count294
+\c@savedcitecounter=\count295
+\c@uniquelist=\count296
+\c@uniquename=\count297
+\c@refsection=\count298
+\c@refsegment=\count299
+\c@maxextratitle=\count300
+\c@maxextratitleyear=\count301
+\c@maxextraname=\count302
+\c@maxextradate=\count303
+\c@maxextraalpha=\count304
+\c@abbrvpenalty=\count305
+\c@highnamepenalty=\count306
+\c@lownamepenalty=\count307
+\c@maxparens=\count308
+\c@parenlevel=\count309
+\blx@tempcnta=\count310
+\blx@tempcntb=\count311
+\blx@tempcntc=\count312
+\c@blx@maxsection=\count313
+\blx@maxsegment@0=\count314
+\blx@notetype=\count315
+\blx@parenlevel@text=\count316
+\blx@parenlevel@foot=\count317
+\blx@sectionciteorder@0=\count318
+\blx@sectionciteorderinternal@0=\count319
+\blx@entrysetcounter=\count320
+\blx@biblioinstance=\count321
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language23
+\c@mincomprange=\count322
+\c@maxcomprange=\count323
+\c@mincompwidth=\count324
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count325
+\c@savedafterword=\count326
+\c@annotator=\count327
+\c@savedannotator=\count328
+\c@author=\count329
+\c@savedauthor=\count330
+\c@bookauthor=\count331
+\c@savedbookauthor=\count332
+\c@commentator=\count333
+\c@savedcommentator=\count334
+\c@editor=\count335
+\c@savededitor=\count336
+\c@editora=\count337
+\c@savededitora=\count338
+\c@editorb=\count339
+\c@savededitorb=\count340
+\c@editorc=\count341
+\c@savededitorc=\count342
+\c@foreword=\count343
+\c@savedforeword=\count344
+\c@holder=\count345
+\c@savedholder=\count346
+\c@introduction=\count347
+\c@savedintroduction=\count348
+\c@namea=\count349
+\c@savednamea=\count350
+\c@nameb=\count351
+\c@savednameb=\count352
+\c@namec=\count353
+\c@savednamec=\count354
+\c@translator=\count355
+\c@savedtranslator=\count356
+\c@shortauthor=\count357
+\c@savedshortauthor=\count358
+\c@shorteditor=\count359
+\c@savedshorteditor=\count360
+\c@labelname=\count361
+\c@savedlabelname=\count362
+\c@institution=\count363
+\c@savedinstitution=\count364
+\c@lista=\count365
+\c@savedlista=\count366
+\c@listb=\count367
+\c@savedlistb=\count368
+\c@listc=\count369
+\c@savedlistc=\count370
+\c@listd=\count371
+\c@savedlistd=\count372
+\c@liste=\count373
+\c@savedliste=\count374
+\c@listf=\count375
+\c@savedlistf=\count376
+\c@location=\count377
+\c@savedlocation=\count378
+\c@organization=\count379
+\c@savedorganization=\count380
+\c@origlocation=\count381
+\c@savedoriglocation=\count382
+\c@origpublisher=\count383
+\c@savedorigpublisher=\count384
+\c@publisher=\count385
+\c@savedpublisher=\count386
+\c@language=\count387
+\c@savedlanguage=\count388
+\c@origlanguage=\count389
+\c@savedoriglanguage=\count390
+\c@pageref=\count391
+\c@savedpageref=\count392
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count393
+\c@textcitetotal=\count394
+\c@textcitemaxnames=\count395
+\c@biburlbigbreakpenalty=\count396
+\c@biburlbreakpenalty=\count397
+\c@biburlnumpenalty=\count398
+\c@biburlucpenalty=\count399
+\c@biburllcpenalty=\count400
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count401
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count402
+\c@bbx:relatedtotal=\count403
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+\@quotelevel=\count404
+\@quotereset=\count405
+ (./makalah_latex.aux)
 \openout1 = `makalah_latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -207,63 +469,290 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen160
+\scratchcounter=\count406
+\scratchdimen=\dimen161
 \scratchbox=\box97
-\nofMPsegments=\count277
-\nofMParguments=\count278
+\nofMPsegments=\count407
+\nofMParguments=\count408
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen161
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
+\MPscratchCnt=\count409
+\MPscratchDim=\dimen162
+\MPnumerator=\count410
+\makeMPintoPDFobject=\count411
 \everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./titlepage.tex
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `makalah_latex-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'makalah_latex.bbl' found.
+ (./makalah_latex.bbl)
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
+ (./titlepage.tex
 <images/letrisLogo.jpg, id=1, 372.39125pt x 391.4625pt>
 File: images/letrisLogo.jpg Graphic file (type jpg)
 <use images/letrisLogo.jpg>
-Package pdftex.def Info: images/letrisLogo.jpg  used on input line 22.
-(pdftex.def)             Requested size: 250.95476pt x 263.81363pt.
+Package pdftex.def Info: images/letrisLogo.jpg  used on input line 19.
+(pdftex.def)             Requested size: 167.2989pt x 175.86977pt.
  [1
 
-{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/letrisLogo.jpg>]) (./makalah_latex.toc)
-\tf@toc=\write3
-\openout3 = `makalah_latex.toc'.
+{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/letrisLogo.jpg>]) (./makalah_latex.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `makalah_latex.toc'.
 
  [1] (./chapters/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+
 Overfull \hbox (2.00029pt too wide) in paragraph at lines 8--11
 \OT1/cmr/m/n/12 tetapi fon-dasi dasar dari alam semesta ma-teri kita sendiri, atom, be-rada di genggam
  []
 
-[2]) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]\OT1/cmr/bx/n/17.28 Systems De-vel-op-
+)
+Overfull \hbox (2.07582pt too wide) in paragraph at lines 57--28
+\OT1/cmr/m/n/12 bidang in-dus-tri, muncul-lah \OT1/cmr/m/it/12 Sys-tems De-vel-op-ment Life Cy-cle \OT1/cmr/m/n/12 (SDLC), yang berguna
  []
 
-(./chapters/chapter1.tex
+[2] (./chapters/chapter1.tex
+<images/sdlc-cycle.jpg, id=20, 629.35126pt x 629.35126pt>
+File: images/sdlc-cycle.jpg Graphic file (type jpg)
+<use images/sdlc-cycle.jpg>
+Package pdftex.def Info: images/sdlc-cycle.jpg  used on input line 20.
+(pdftex.def)             Requested size: 167.2989pt x 167.29585pt.
 
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'english' will be used instead.
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+[][]
+ []
 
-[4]) (./chapters/chapter2.tex [5]) (./chapters/chapter3.tex) [6] (./chapters/chapter4.tex) [7] (./chapters/chapter5.tex [8]) (./chapters/chapter6.tex [9]) [10] (./makalah_latex.aux) ) 
+) (./chapters/chapter2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+[3 <./images/sdlc-cycle.jpg (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+\OT1/cmr/m/n/12 Menariknya, se-jarah SDLC tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+\OT1/cmr/m/n/12 "SDLC" yang mem-per-tim-bangkan
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 pada metodologi SDLC tra-di-sional,
+ []
+
+[4]
+Underfull \hbox (badness 5203) in paragraph at lines 47--50
+\OT1/cmr/m/n/12 i-tas ter-hadap pe-ruba-han pelang-gan
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 51--56
+\OT1/cmr/m/n/12 dasi dasar metode ini men-dukung
+ []
+
+<images/incr-vs-interative.png, id=28, 694.595pt x 170.6375pt>
+File: images/incr-vs-interative.png Graphic file (type png)
+<use images/incr-vs-interative.png>
+Package pdftex.def Info: images/incr-vs-interative.png  used on input line 61.
+(pdftex.def)             Requested size: 460.08159pt x 113.02986pt.
+[5 <./images/incr-vs-interative.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+[]\OT1/cmr/m/it/12 Rapid Sys-tems De-vel-op-ment
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\OT1/cmr/bx/n/17.28 Rapid Ap-pli-ca-tion
+ []
+
+(./chapters/chapter3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+\OT1/cmr/m/n/12 Sebuah SDLC yang ter-lahir dari
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 1--4
+\OT1/cmr/m/n/12 pengem-ban-gan \OT1/cmr/m/it/12 soft-ware \OT1/cmr/m/n/12 yang lebih
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 6--11
+\OT1/cmr/m/n/12 yang su-dah ma-pan saat itu yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--24
+\OT1/cmr/m/n/12 pada sik-lus pem-ban-gu-nan pen-dek,
+ []
+
+[6]
+<images/rad-cycle.png, id=37, 1405.25pt x 600.2425pt>
+File: images/rad-cycle.png Graphic file (type png)
+<use images/rad-cycle.png>
+Package pdftex.def Info: images/rad-cycle.png  used on input line 29.
+(pdftex.def)             Requested size: 439.16763pt x 187.58447pt.
+
+Overfull \hbox (1.08246pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+\OT1/cmr/bx/n/12 pli-ca-tion De-vel-op-ment, di
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 41--43
+\OT1/cmr/bx/n/12 mana de-vel-oper men-gatasi
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 41--43
+\OT1/cmr/bx/n/12 utang tek-nis yang tim-bul
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 41--43
+\OT1/cmr/bx/n/12 sta-bil-i-tas dan main-te-nance
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 41--43
+\OT1/cmr/bx/n/12 saat mereka menye-le-saikan
+ []
+
+[7 <./images/rad-cycle.png (PNG copy)>]
+Overfull \hbox (272.50342pt too wide) in paragraph at lines 51--70
+ [] 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\OT1/cmr/bx/n/14.4 Kelebihan/Kekurangan
+ []
+
+
+Underfull \hbox (badness 6775) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/12 Mudah un-tuk dia-mati karena
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 84--85
+\OT1/cmr/m/n/12 bang da-pat melakukan proses
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 84--85
+\OT1/cmr/m/n/12 de-sain ulang pada saat yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/12 Ketelitian men-jadi berku-rang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+\OT1/cmr/m/n/12 karena tidak meng-gu-nakan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+\OT1/cmr/m/n/12 metode yang for-mal dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/12 Apakah Anda memi-liki tim
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 113--114
+\OT1/cmr/m/n/12 pat berkomit-men pada proses
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/12 Apakah klien Anda berse-dia
+ []
+
+) [10] (./chapters/conclusion.tex)
+Overfull \hbox (23.52667pt too wide) in paragraph at lines 2--47
+\OT1/cmr/m/n/12 ban-gan-nya, dan bagaimana akhirnya SDLC RAD perkem-bang se-ba-gai sis-tem tersendiri.
+ []
+
+[11]
+Overfull \hbox (8.47398pt too wide) in paragraph at lines 51--51
+\OT1/cmtt/m/n/12 / / accounting . binus . ac . id / 2020 / 05 / 19 / memahami -[] system -[] development -[]
+ []
+
+
+Overfull \hbox (3.29898pt too wide) in paragraph at lines 51--51
+\OT1/cmtt/m/n/12 www . wavemaker . com / rapid -[] application -[] development -[] vs -[] traditional -[]
+ []
+
+
+Overfull \hbox (61.38069pt too wide) in paragraph at lines 51--51
+[]\OT1/cmr/m/n/12 Anonymous. \OT1/cmr/m/it/12 Rapid Ap-pli-ca-tion De-vel-op-ment\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . bestpricecomputers .
+ []
+
+
+Overfull \hbox (17.68503pt too wide) in paragraph at lines 51--51
+\OT1/cmr/m/n/12 VEL-OP-MENT SE-BA-GAI SALAH SATU AL-TER-NATIF METODE PENGEM-
+ []
+
+[12] (./makalah_latex.aux)
+Package logreq Info: Writing requests to 'makalah_latex.run.xml'.
+\openout1 = `makalah_latex.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2732 strings out of 477476
- 49126 string characters out of 5824244
- 1864388 words of memory out of 5000000
- 22949 multiletter control sequences out of 15000+600000
- 515746 words of font info for 43 fonts, out of 8000000 for 9000
+ 10955 strings out of 477476
+ 212744 string characters out of 5824244
+ 1862388 words of memory out of 5000000
+ 31074 multiletter control sequences out of 15000+600000
+ 519259 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 72i,11n,77p,311b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/zainal/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on makalah_latex.pdf (11 pages, 256829 bytes).
+ 72i,11n,77p,1927b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/zainal/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on makalah_latex.pdf (13 pages, 706701 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
