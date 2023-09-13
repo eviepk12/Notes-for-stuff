@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.10)  12 SEP 2023 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.10)  13 SEP 2023 05:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -542,13 +542,8 @@ Overfull \hbox (2.07582pt too wide) in paragraph at lines 57--28
 <images/sdlc-cycle.jpg, id=20, 629.35126pt x 629.35126pt>
 File: images/sdlc-cycle.jpg Graphic file (type jpg)
 <use images/sdlc-cycle.jpg>
-Package pdftex.def Info: images/sdlc-cycle.jpg  used on input line 20.
+Package pdftex.def Info: images/sdlc-cycle.jpg  used on input line 19.
 (pdftex.def)             Requested size: 167.2989pt x 167.29585pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-[][]
- []
-
 ) (./chapters/chapter2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
@@ -749,7 +744,7 @@ Here is how much of TeX's memory you used:
  319 hyphenation exceptions out of 8191
  72i,11n,77p,1927b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/zainal/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on makalah_latex.pdf (13 pages, 706701 bytes).
+Output written on makalah_latex.pdf (13 pages, 706650 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
